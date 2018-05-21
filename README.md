@@ -1,29 +1,10 @@
-# README #
+R Shiny example in an R project
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Uses leaflet map as main focal point and most important visual.
+Radius shows number of fatalities, color shows event type.
 
-### What is this repository for? ###
+4 user inputs, 3 being on the left side of the app, 1 being on the dygraph. Effects filtered results of all visuals.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+Dygraph shows fatalities in filtered results over time.
+Table shows the main actor grouped with secondary actor.
+Word Cloud and Parallel set in place for extra exploration and flavor of filtered data.
